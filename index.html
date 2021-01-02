@@ -33,6 +33,10 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 
+<style>
+  img {border-radius: 50%;}
+</style>
+
 <body>
 
   <!-- ***** Header ***** -->
@@ -59,7 +63,7 @@
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p>Machine Learning Practitioner and Data Scientist</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <a href="#projects" class="btn btn--pink">See my work</a>
       </div>
     </div>
   </header>
@@ -86,11 +90,12 @@
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/avatar.jpeg" alt="avatar" style="width:200px"/>
           </div>
         </div>
       </div>
     </section>
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="projects">
@@ -102,15 +107,23 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Object Detection</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                The goal of this project was to build a Single Shot Detector (SSD) 
+		from scratch using PyTorch. Growing up in the 90s my favorite game 
+		was Pokemon Yellow for the Game Boy. The main friend (Pokemon) that 
+		tags along with you is Pikachu. For fun and a great learning opportunity, 
+		I found a dataset with about 1000 images of Pikachu.
+		I was able to build a custom Fully Convolutional Network (FCN) 
+		that can successfully detect multiple Pikachus in an image with a single 
+		pass through the network architechture and draw bounding boxes with 
+		class probability.
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Deep Learning</li>
+                <li>Computer Vision</li>
+                <li>Python</li>
+                <li>PyTorch</li>
               </ul>
 
               <div class="work__links">
@@ -198,15 +211,12 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          The quickest way to reach out to
+          me is via email but feel free to connect with me
+	  through my Linkedin or Twitter accounts below.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:lfnicatio@gmail.com" class="btn">Email</a>
       </div>
     </div>
   </section>
@@ -218,25 +228,21 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+          <a href="https://www.linkedin.com/in/falconi-nicasio/" title="Link to Linkedin Profile">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+	<li class="footer__social-link-item">
+          <a href="https://twitter.com/FalconiNicasio/" title="Link to Twitter Profile">
             <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/FalconiNicasio/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
+
       </ul>
 
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
