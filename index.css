@@ -454,6 +454,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 @media(min-width: 901px) {
@@ -498,7 +501,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
 }
 
 .work__list {

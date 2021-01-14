@@ -33,9 +33,6 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 
-<style>
-  img {border-radius: 50%;}
-</style>
 
 <body>
 
@@ -90,7 +87,7 @@
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/avatar.jpeg" alt="avatar" style="width:200px"/>
+            <img class="about__photo" src="./images/avatar.jpeg" alt="avatar" />
           </div>
         </div>
       </div>
@@ -109,15 +106,13 @@
             <div class="work__text">
               <h3>Object Detection</h3>
               <p>
-                The goal of this project was to build a Single Shot Detector (SSD) 
-		from scratch using PyTorch. Growing up in the 90s my favorite game 
-		was Pokemon Yellow for the Game Boy. The main friend (Pokemon) that 
-		tags along with you is Pikachu. For fun and a great learning opportunity, 
-		I found a dataset with about 1000 images of Pikachu.
-		I was able to build a custom Fully Convolutional Network (FCN) 
-		that can successfully detect multiple Pikachus in an image with a single 
-		pass through the network architechture and draw bounding boxes with 
-		class probability.
+               Object detection is a classic Computer Vision problem and one of the more 
+	       efficient ways to solve it is with Single Shot Detectors (SSD). The goal 
+	       of this project was to build an SSD using a Fully Convolutional Network (FCN). 
+	       As a kid from the 90s I found an interesting dataset of about 1000 images of 
+	       Pikachu to train on. The result is a working SSD that can successfully detect 
+	       multiple objects on a test image with training time taking less than 4 minutes 
+	       on GPUs.  
               </p>
               <ul class="work__list">
                 <li>Deep Learning</li>
@@ -127,16 +122,16 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://colab.research.google.com/drive/1pnc7fFMnq_5_Ll-R7MPBYkq90LYXPU-o?usp=sharing" target="_blank" class="work__code">
+                 <img src="./images/colab.png" alt="Open In Colab" width="40" height="30"/> 
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/FalconiNicasio/pikachu-detector" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/pikachu.jpg" class="work__image" alt="Project 1" />
             </div>
           </div>
 
